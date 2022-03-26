@@ -3,7 +3,7 @@ import sqlite3
 PATH = '/db/jobs.sqlite'
 
 app = Flask(__name__)
-def open.connection()
+
 
 @app.route('/')
 @app.route('/jobs')
