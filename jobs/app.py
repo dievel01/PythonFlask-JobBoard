@@ -64,5 +64,5 @@ def review(employer_id):
 
         return redirect(url_for('employer', employer_id=employer_id))
 
-    return render_template('review.html', employer_id)
+    return render_template('review.html', employer_id=employer_id)
 
